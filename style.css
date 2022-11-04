@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("https://media.timeout.com/images/105211701/image.jpg");
+    background-position: center;
+    overflow-x:hidden; 
+    overflow-y:hidden;
+    color: white;
+}
+
+.time {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.greeting {
+    font-size: 2.5em;
+}
+
+.todo {
+    font-size: 30px;
+    background-color: antiquewhite;
+    opacity: 0.7;
+    border-radius: 23px;
+    width: 21em;
+}
+
+.todo ol {
+    list-style:none; 
+    color: black;
+}
+
+.content {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.main {
+    width: 100vw;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 100vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
